@@ -1,0 +1,818 @@
+[
+  {
+    "name": "ActionFilter",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/ActionFilter.html"
+  },
+  {
+    "name": "Animable",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Animable.html"
+  },
+  {
+    "name": "Api",
+    "url": "https://osbot.org/api/org/osbot/rs07/script/API.html"
+  },
+  {
+    "name": "Area",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/map/Area.html"
+  },
+  {
+    "name": "AreaDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/AreaDestination.html"
+  },
+  {
+    "name": "AreaFilter",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/AreaFilter.html"
+  },
+  {
+    "name": "AudioListener",
+    "url": "https://osbot.org/api/org/osbot/rs07/listener/AudioListener.html"
+  },
+  {
+    "name": "Bank",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Bank.html"
+  },
+  {
+    "name": "Bank.BankMode",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Bank.BankMode.html"
+  },
+  {
+    "name": "Banks",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/map/constants/Banks.html"
+  },
+  {
+    "name": "BankSlotDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/BankSlotDestination.html"
+  },
+  {
+    "name": "BFSWalkableAreaFinder",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/BFSWalkableAreaFinder.html"
+  },
+  {
+    "name": "Bot",
+    "url": "https://osbot.org/api/org/osbot/rs07/Bot.html"
+  },
+  {
+    "name": "BotEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/awt/BotEvent.html"
+  },
+  {
+    "name": "BotFocusEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/focus/BotFocusEvent.html"
+  },
+  {
+    "name": "BotInputEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/BotInputEvent.html"
+  },
+  {
+    "name": "BotKeyEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/keyboard/BotKeyEvent.html"
+  },
+  {
+    "name": "BotKeyEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/awt/BotKeyEvent.html"
+  },
+  {
+    "name": "BotKeyListener",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/keyboard/BotKeyListener.html"
+  },
+  {
+    "name": "BotMouseEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/awt/BotMouseEvent.html"
+  },
+  {
+    "name": "BotMouseListener",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/BotMouseListener.html"
+  },
+  {
+    "name": "BotMouseWheelEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/BotMouseWheelEvent.html"
+  },
+  {
+    "name": "CachedWidget",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/CachedWidget.html"
+  },
+  {
+    "name": "Camera",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Camera.html"
+  },
+  {
+    "name": "Camera.CameraDirection",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Camera.CameraDirection.html"
+  },
+  {
+    "name": "CameraPitchEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/CameraPitchEvent.html"
+  },
+  {
+    "name": "CameraYawEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/CameraYawEvent.html"
+  },
+  {
+    "name": "Character",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Character.html"
+  },
+  {
+    "name": "Chatbox",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Chatbox.html"
+  },
+  {
+    "name": "Chatbox.MessageType",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Chatbox.MessageType.html"
+  },
+  {
+    "name": "ClickMouseEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/ClickMouseEvent.html"
+  },
+  {
+    "name": "Client",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Client.html"
+  },
+  {
+    "name": "Client.AccountType",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Client.AccountType.html"
+  },
+  {
+    "name": "Client.GameState",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Client.GameState.html"
+  },
+  {
+    "name": "Client.LoginStage",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Client.LoginStage.html"
+  },
+  {
+    "name": "Client.LoginState",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Client.LoginState.html"
+  },
+  {
+    "name": "ClientFocusEventHandler",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/focus/ClientFocusEventHandler.html"
+  },
+  {
+    "name": "ClientKeyEventHandler",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/keyboard/ClientKeyEventHandler.html"
+  },
+  {
+    "name": "ClientMouseEventHandler",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/ClientMouseEventHandler.html"
+  },
+  {
+    "name": "CollectionAPI",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/CollectionAPI.html"
+  },
+  {
+    "name": "ColorPicker",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ColorPicker.html"
+  },
+  {
+    "name": "Combat",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Combat.html"
+  },
+  {
+    "name": "Condition",
+    "url": "https://osbot.org/api/org/osbot/rs07/utility/Condition.html"
+  },
+  {
+    "name": "ConditionalLoop",
+    "url": "https://osbot.org/api/org/osbot/rs07/utility/ConditionalLoop.html"
+  },
+  {
+    "name": "ConditionalSleep",
+    "url": "https://osbot.org/api/org/osbot/rs07/utility/ConditionalSleep.html"
+  },
+  {
+    "name": "ConditionalSleep2",
+    "url": "https://osbot.org/api/org/osbot/rs07/utility/ConditionalSleep2.html"
+  },
+  {
+    "name": "ConfigListener",
+    "url": "https://osbot.org/api/org/osbot/rs07/listener/ConfigListener.html"
+  },
+  {
+    "name": "Configs",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Configs.html"
+  },
+  {
+    "name": "ContainsModelFilter",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/ContainsModelFilter.html"
+  },
+  {
+    "name": "ContainsNameFilter",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/ContainsNameFilter.html"
+  },
+  {
+    "name": "ContinualClickMouseEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/ContinualClickMouseEvent.html"
+  },
+  {
+    "name": "ContinualTypeKeyEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/keyboard/ContinualTypeKeyEvent.html"
+  },
+  {
+    "name": "DepositBox",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/DepositBox.html"
+  },
+  {
+    "name": "DepositBoxSlotDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/DepositBoxSlotDestination.html"
+  },
+  {
+    "name": "Dialogues",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Dialogues.html"
+  },
+  {
+    "name": "Diaries",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Diaries.html"
+  },
+  {
+    "name": "Diaries.Diary",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Diaries.Diary.html"
+  },
+  {
+    "name": "Display",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Display.html"
+  },
+  {
+    "name": "Display.DisplayMode",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Display.DisplayMode.html"
+  },
+  {
+    "name": "DoorHandler",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/DoorHandler.html"
+  },
+  {
+    "name": "DoubleModeled",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/DoubleModeled.html"
+  },
+  {
+    "name": "DynamicCircularPathFinder",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/DynamicCircularPathFinder.html"
+  },
+  {
+    "name": "Entity",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Entity.html"
+  },
+  {
+    "name": "EntityAPI",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/EntityAPI.html"
+  },
+  {
+    "name": "EntityDefinition",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/def/EntityDefinition.html"
+  },
+  {
+    "name": "EntityDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/EntityDestination.html"
+  },
+  {
+    "name": "Equipment",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Equipment.html"
+  },
+  {
+    "name": "EquipmentSlot",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/EquipmentSlot.html"
+  },
+  {
+    "name": "EquipmentSlotDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/EquipmentSlotDestination.html"
+  },
+  {
+    "name": "Event",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/Event.html"
+  },
+  {
+    "name": "Event.EventMode",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/Event.EventMode.html"
+  },
+  {
+    "name": "Event.EventStatus",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/Event.EventStatus.html"
+  },
+  {
+    "name": "EventExecutor",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/EventExecutor.html"
+  },
+  {
+    "name": "ExperienceTracker",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/ExperienceTracker.html"
+  },
+  {
+    "name": "Favour",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Favour.html"
+  },
+  {
+    "name": "Favour.House",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Favour.House.html"
+  },
+  {
+    "name": "Filter",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/Filter.html"
+  },
+  {
+    "name": "FilterAPI",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/FilterAPI.html"
+  },
+  {
+    "name": "GameTickListener",
+    "url": "https://osbot.org/api/org/osbot/rs07/listener/GameTickListener.html"
+  },
+  {
+    "name": "GrandExchange",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/GrandExchange.html"
+  },
+  {
+    "name": "GrandExchange.Box",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/GrandExchange.Box.html"
+  },
+  {
+    "name": "GrandExchange.Status",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/GrandExchange.Status.html"
+  },
+  {
+    "name": "GroundDecoration",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/GroundDecoration.html"
+  },
+  {
+    "name": "GroundItem",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/GroundItem.html"
+  },
+  {
+    "name": "GroundItems",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/GroundItems.html"
+  },
+  {
+    "name": "GroundItemStack",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/GroundItemStack.html"
+  },
+  {
+    "name": "HashedPoint",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/HashedPoint.html"
+  },
+  {
+    "name": "HeadMessage",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/HeadMessage.html"
+  },
+  {
+    "name": "HintArrow",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/HintArrow.html"
+  },
+  {
+    "name": "HintArrow.HintArrowType",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/HintArrow.HintArrowType.html"
+  },
+  {
+    "name": "Holder",
+    "url": "https://osbot.org/api/org/osbot/rs07/utility/Holder.html"
+  },
+  {
+    "name": "Identifiable",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Identifiable.html"
+  },
+  {
+    "name": "IdFilter",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/IdFilter.html"
+  },
+  {
+    "name": "Interactable",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Interactable.html"
+  },
+  {
+    "name": "InteractableObject",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/InteractableObject.html"
+  },
+  {
+    "name": "InteractionEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/InteractionEvent.html"
+  },
+  {
+    "name": "Inventory",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Inventory.html"
+  },
+  {
+    "name": "InventorySlotDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/InventorySlotDestination.html"
+  },
+  {
+    "name": "Item",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Item.html"
+  },
+  {
+    "name": "ItemContainer",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/ItemContainer.html"
+  },
+  {
+    "name": "ItemDefinition",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/def/ItemDefinition.html"
+  },
+  {
+    "name": "ItemListFilter",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/ItemListFilter.html"
+  },
+  {
+    "name": "ItemRequirement",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/webwalk/ItemRequirement.html"
+  },
+  {
+    "name": "Keyboard",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Keyboard.html"
+  },
+  {
+    "name": "KeyboardInputFilter",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/filter/KeyboardInputFilter.html"
+  },
+  {
+    "name": "LocalPathFinder",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/LocalPathFinder.html"
+  },
+  {
+    "name": "LoginResponseCodeListener",
+    "url": "https://osbot.org/api/org/osbot/rs07/listener/LoginResponseCodeListener.html"
+  },
+  {
+    "name": "LogoutTab",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/LogoutTab.html"
+  },
+  {
+    "name": "Magic",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Magic.html"
+  },
+  {
+    "name": "Magic.Book",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Magic.Book.html"
+  },
+  {
+    "name": "MagicSpell",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/MagicSpell.html"
+  },
+  {
+    "name": "MainScreenTileDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/MainScreenTileDestination.html"
+  },
+  {
+    "name": "Map",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Map.html"
+  },
+  {
+    "name": "MediaType",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/MediaType.html"
+  },
+  {
+    "name": "Menu",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Menu.html"
+  },
+  {
+    "name": "Message",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/Message.html"
+  },
+  {
+    "name": "Message.MessageType",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/Message.MessageType.html"
+  },
+  {
+    "name": "MessageListener",
+    "url": "https://osbot.org/api/org/osbot/rs07/listener/MessageListener.html"
+  },
+  {
+    "name": "MethodProvider",
+    "url": "https://osbot.org/api/org/osbot/rs07/script/MethodProvider.html"
+  },
+  {
+    "name": "MiniMapTileDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/MiniMapTileDestination.html"
+  },
+  {
+    "name": "Model",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Model.html"
+  },
+  {
+    "name": "Modeled",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Modeled.html"
+  },
+  {
+    "name": "ModelFilter",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/ModelFilter.html"
+  },
+  {
+    "name": "Mouse",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Mouse.html"
+  },
+  {
+    "name": "Mouse.CrossHairColor",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Mouse.CrossHairColor.html"
+  },
+  {
+    "name": "MouseDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/MouseDestination.html"
+  },
+  {
+    "name": "MouseEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/MouseEvent.html"
+  },
+  {
+    "name": "MoveMouseEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/MoveMouseEvent.html"
+  },
+  {
+    "name": "NameFilter",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/NameFilter.html"
+  },
+  {
+    "name": "NodeContainerUtilities",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/NodeContainerUtilities.html"
+  },
+  {
+    "name": "NodeDequeIterator",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/NodeDequeIterator.html"
+  },
+  {
+    "name": "NodeDequeIteratorG",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/NodeDequeIteratorG.html"
+  },
+  {
+    "name": "NPC",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/NPC.html"
+  },
+  {
+    "name": "NPCComparator",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/comparator/NPCComparator.html"
+  },
+  {
+    "name": "NPCDefinition",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/def/NPCDefinition.html"
+  },
+  {
+    "name": "NPCS",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/NPCS.html"
+  },
+  {
+    "name": "ObjectComparator",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/comparator/ObjectComparator.html"
+  },
+  {
+    "name": "ObjectDefinition",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/def/ObjectDefinition.html"
+  },
+  {
+    "name": "Objects",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Objects.html"
+  },
+  {
+    "name": "Option",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/Option.html"
+  },
+  {
+    "name": "Painter",
+    "url": "https://osbot.org/api/org/osbot/rs07/canvas/paint/Painter.html"
+  },
+  {
+    "name": "PathPreferenceProfile",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/webwalk/PathPreferenceProfile.html"
+  },
+  {
+    "name": "Player",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Player.html"
+  },
+  {
+    "name": "PlayerDefinition",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/def/PlayerDefinition.html"
+  },
+  {
+    "name": "Players",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Players.html"
+  },
+  {
+    "name": "Plugin",
+    "url": "https://osbot.org/api/org/osbot/rs07/script/Plugin.html"
+  },
+  {
+    "name": "PointDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/PointDestination.html"
+  },
+  {
+    "name": "Position",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/map/Position.html"
+  },
+  {
+    "name": "PositionFilter",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/filter/PositionFilter.html"
+  },
+  {
+    "name": "Prayer",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Prayer.html"
+  },
+  {
+    "name": "PrayerButton",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/PrayerButton.html"
+  },
+  {
+    "name": "Projectile",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Projectile.html"
+  },
+  {
+    "name": "Projectiles",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Projectiles.html"
+  },
+  {
+    "name": "Quests",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Quests.html"
+  },
+  {
+    "name": "Quests.Quest",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Quests.Quest.html"
+  },
+  {
+    "name": "RandomEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/script/RandomEvent.html"
+  },
+  {
+    "name": "RandomExecutor",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/RandomExecutor.html"
+  },
+  {
+    "name": "RandomPainter",
+    "url": "https://osbot.org/api/org/osbot/rs07/script/RandomPainter.html"
+  },
+  {
+    "name": "RandomSolver",
+    "url": "https://osbot.org/api/org/osbot/rs07/script/RandomSolver.html"
+  },
+  {
+    "name": "RectangleDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/RectangleDestination.html"
+  },
+  {
+    "name": "Region",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/map/Region.html"
+  },
+  {
+    "name": "RS07Wrapper",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/RS07Wrapper.html"
+  },
+  {
+    "name": "RS2Object",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/RS2Object.html"
+  },
+  {
+    "name": "RS2Widget",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/RS2Widget.html"
+  },
+  {
+    "name": "Script",
+    "url": "https://osbot.org/api/org/osbot/rs07/script/Script.html"
+  },
+  {
+    "name": "ScriptExecutor",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/ScriptExecutor.html"
+  },
+  {
+    "name": "ScriptManifest",
+    "url": "https://osbot.org/api/org/osbot/rs07/script/ScriptManifest.html"
+  },
+  {
+    "name": "SDNScriptManifest",
+    "url": "https://osbot.org/api/org/osbot/rs07/script/SDNScriptManifest.html"
+  },
+  {
+    "name": "Settings",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Settings.html"
+  },
+  {
+    "name": "Settings.SettingsTab",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Settings.SettingsTab.html"
+  },
+  {
+    "name": "Settings.Warning",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Settings.Warning.html"
+  },
+  {
+    "name": "SingletonEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/SingletonEvent.html"
+  },
+  {
+    "name": "Skill",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/Skill.html"
+  },
+  {
+    "name": "Skills",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Skills.html"
+  },
+  {
+    "name": "Spells",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/Spells.html"
+  },
+  {
+    "name": "Spells.AncientSpells",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/Spells.AncientSpells.html"
+  },
+  {
+    "name": "Spells.ArceuusSpells",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/Spells.ArceuusSpells.html"
+  },
+  {
+    "name": "Spells.LunarSpells",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/Spells.LunarSpells.html"
+  },
+  {
+    "name": "Spells.NormalSpells",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/Spells.NormalSpells.html"
+  },
+  {
+    "name": "StandardObject",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/StandardObject.html"
+  },
+  {
+    "name": "Store",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Store.html"
+  },
+  {
+    "name": "StoreSlotDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/StoreSlotDestination.html"
+  },
+  {
+    "name": "Tab",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/Tab.html"
+  },
+  {
+    "name": "Tabs",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Tabs.html"
+  },
+  {
+    "name": "Trade",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Trade.html"
+  },
+  {
+    "name": "Trade.OfferOwner",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Trade.OfferOwner.html"
+  },
+  {
+    "name": "TradeOfferItemDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/TradeOfferItemDestination.html"
+  },
+  {
+    "name": "TripleModeled",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/TripleModeled.html"
+  },
+  {
+    "name": "TypeKeyEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/keyboard/TypeKeyEvent.html"
+  },
+  {
+    "name": "TypeStringEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/keyboard/TypeStringEvent.html"
+  },
+  {
+    "name": "UidDecoder",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/UidDecoder.html"
+  },
+  {
+    "name": "Utilities",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/util/Utilities.html"
+  },
+  {
+    "name": "Vector3D",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/Vector3D.html"
+  },
+  {
+    "name": "Walking",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Walking.html"
+  },
+  {
+    "name": "WalkingEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/WalkingEvent.html"
+  },
+  {
+    "name": "WallDecoration",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/WallDecoration.html"
+  },
+  {
+    "name": "WallObject",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/model/WallObject.html"
+  },
+  {
+    "name": "WebWalkEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/event/WebWalkEvent.html"
+  },
+  {
+    "name": "WidgetComparator",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/comparator/WidgetComparator.html"
+  },
+  {
+    "name": "WidgetDestination",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/mouse/WidgetDestination.html"
+  },
+  {
+    "name": "Widgets",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Widgets.html"
+  },
+  {
+    "name": "World",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/ui/World.html"
+  },
+  {
+    "name": "Worlds",
+    "url": "https://osbot.org/api/org/osbot/rs07/api/Worlds.html"
+  },
+  {
+    "name": "XKeyEvent",
+    "url": "https://osbot.org/api/org/osbot/rs07/input/keyboard/XKeyEvent.html"
+  }
+]

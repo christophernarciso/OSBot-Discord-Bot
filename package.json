@@ -1,0 +1,17 @@
+{
+  "name": "osbotscriptingassistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Discord bot", "OSBot Scripting Assistant Bot"],
+  "author": "Christopher",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "trie-search": "^1.2.11"
+  }
+}

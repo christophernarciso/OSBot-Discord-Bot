@@ -1,0 +1,24 @@
+{
+  "commands": [
+    {
+      "name": "snippets",
+      "desc": "Provides the user with the direct link to the snippets section for more information."
+    },
+    {
+      "name":"tutorials",
+      "desc": "Provides the user with the direct link to the tutorials section for more information."
+    },
+    {
+      "name": "class",
+      "desc": "Provides the user with the api class url for more information.\n<!class bank>"
+    },
+    {
+      "name": "index",
+      "desc": "Provides the user with the api index search result for more information.\n<!index withdraw>"
+    },
+    {
+      "name": "example",
+      "desc": "Provides the user with the api example of the requested data.\n<!example bank>"
+    }
+  ]
+}
