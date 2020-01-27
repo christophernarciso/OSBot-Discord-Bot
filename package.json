@@ -6,12 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Discord bot", "OSBot Scripting Assistant Bot"],
+  "keywords": [
+    "Discord bot",
+    "OSBot Scripting Assistant Bot"
+  ],
   "author": "Christopher",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.0",
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0",
+    "request": "^2.88.0",
+    "sleep-promise": "^8.0.1",
     "trie-search": "^1.2.11"
+  },
+  "devDependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.5"
   }
 }

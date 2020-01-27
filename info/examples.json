@@ -1,3 +1,6 @@
-{
-
-}
+[
+  {
+    "name": "Banking Snippet",
+    "code": "\t\tif (getBank().isOpen()) {\n            // Withdraw, etc\n        } else if (getBank().open()) {\n            // We sucessfully opened the bank!\n        }"
+  }
+]

@@ -19,6 +19,10 @@
     {
       "name": "example",
       "desc": "Provides the user with the api example of the requested data.\n<!example bank>"
+    },
+    {
+      "name": "auth",
+      "desc": "Provides the user with the requested script auth for a set duriation\n<!auth https://osbot.org/forum/profile/134079-chris/ vorkath>"
     }
   ]
 }
