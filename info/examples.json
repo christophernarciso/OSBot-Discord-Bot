@@ -1,6 +1,58 @@
 [
   {
-    "name": "Banking Snippet",
-    "code": "\t\tif (getBank().isOpen()) {\n            // Withdraw, etc\n        } else if (getBank().open()) {\n            // We sucessfully opened the bank!\n        }"
+    "name": "Banking Open Snippet",
+    "code": "if (getBank().isOpen()) {\n\t// Withdraw, etc\n} else if (getBank().open()) {\n\t// We sucessfully opened the bank!\n}"
+  },
+  {
+    "name": "Banking Close Snippet",
+    "code": "if (getBank().isOpen()) {\n\t//Bank is open! time to close!\n\tgetBank().close();\n}"
+  },
+  {
+    "name": "Banking Withdraw Snippet",
+    "code": "if (getBank().contains(\"Raw chicken\")) {\n\tgetBank().withdraw(\"Raw chicken\", 1);\n}"
+  },
+  {
+    "name": "Banking Deposit Snippet",
+    "code": "if (getBank().isOpen()) {\n\tif (getInventory().contains(\"Loot\")) {\n\t\t// Bank.depositAll() clears the whole inventory!\n\t\tgetBank().depositAll(\"Loot\");\n\t}\n}"
+  },
+  {
+    "name": "Banking Contains Snippet",
+    "code": "if (getBank().contains(\"Raw chicken\")) {\n\tlog(\"Bank contains Lobster!\");\n}"
+  },
+  {
+    "name": "Inventory Drop Snippet",
+    "code": "if (getInventory().contains(\"Vial\") {\n\tif (getInventory().drop(\"Vial\") {\n\t\tlog(\"We dropped a vial!\");\n\t}\n}"
+  },
+  {
+    "name": "Inventory Interact Snippet",
+    "code": "// LOOTING_BAG_CLOSED = 11941, LOOTING_BAG_OPENED = 22586\nif (getInventory().contains(11941)) {\n\tlog(\"Opening looting bag for faster looting!\");\n\tif (getInventory().interact(\"Open\", 22586)) {\n\t\t//Sleep until we have LOOTING_BAG_OPENED\n\t}\n}"
+  },
+  {
+    "name": "Inventory Capacity Snippet",
+    "code": "if (getInventory().isFull()) {\n\tlog(\"The inventory is full! Handle this scenario!\");\n}\n\nif (getInventory().isEmpty()) {\n\tlog(\"The inventory is empty!\");\n\t// Can also try using !getInventory().isFull()\n}\n\nif (getInventory().getEmptySlots() > 5) {\n\tlog(\"We have more than 5 free inventory spaces!\");\n}"
+  },
+  {
+    "name": "Inventory Contains Snippet",
+    "code": "if (getInventory().contains(\"Lobster\")) {\n\tlog(\"Our inventory contains Lobster!\");\n}"
+  },
+  {
+    "name": "Equipment Interact Snippet",
+    "code": ""
+  },
+  {
+    "name": "Equipment Contains Snippet",
+    "code": "if (getEquipment().contains(\"Dragon longsword\")) {\n\tlog(\"Our equipment contains a Dragon longsword!\");\n}"
+  },
+  {
+    "name": "GroundItem Interact Snippet",
+    "code": "// Always null check a ground item or face a null pointer of death!\nGroundItem droppable = getGroundItems().closest(\"Bones\");\nif (droppable != null) {\n\tlog(\"Ground item exists!\");\n\tif (droppable.interact(\"Take\")) {\n\t\tlog(\"Ground item was picked up successfully!\");\n\t}\n}"
+  },
+  {
+    "name": "RS2Object Interact Snippet",
+    "code": "// Always null check a object or face a null pointer of death!\nRS2Object chairObject = getObjects().closest(\"Chair\");\nif (chairObject != null) {\n\tlog(\"Chair exists in game!\");\n\tif (chairObject.interact(\"Sit\")) {\n\t\tlog(\"Sitting in chair!\");\n\t}\n}"
+  },
+  {
+    "name": "RS2Widget Interact Snippet",
+    "code": "// Always null check a widget or face a null pointer of death!\nRS2Widget shop = getWidgets().getWidgetContainingText(207, \"Minigame Rewards\");\nif (shop != null && shop.isVisible()) {\n\t// This is a example of finding a widget minigame screen\n\tlog(\"Shop screen exists and is visible!\");\n\tRS2Widget shopItem = getWidgets().getWidgetContainingText(207, \"Cape\");\n\tif (shopItem != null && shopItem.isVisible()) {\n\t\tlog(\"Out shop item is visible!\");\n\t\tif (shopItem.interact()) {\n\t\t\t// .interact() will just left click the widget\n\t\t\t// If a special action the do .interact(\"Action\")\n\t\t\tlog(\"Taken the shop item!\");\n\t\t}\n\t}\n}"
   }
 ]
