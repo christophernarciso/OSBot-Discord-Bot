@@ -20,8 +20,10 @@ Using JSON data I provide commands to search for specific keywords that then is 
 
 Examples
 ========
-![](https://i.imgur.com/Jhx5twb.png)
+![](https://i.imgur.com/2ojFxPJ.png)
 
-![](https://i.imgur.com/6IQ2G06.png)
+![](https://i.imgur.com/ni7tQSA.png)
+
+![](https://i.imgur.com/ri84jhL.png)
 
 ![](https://i.imgur.com/vMcnJb3.png)
