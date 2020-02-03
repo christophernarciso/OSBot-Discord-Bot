@@ -16,12 +16,12 @@ Data Structure
 ==============
 This bot uses the Trie data structure in javascript written by https://github.com/joshjung/trie-search/blob/master/README.md
 
-Using JSON data I provide commands to search for specific keywords that is then displayed to the user.
+Using JSON data I provide commands to search for specific keywords that then is displayed to the user.
 
 Examples
 ========
-![](https://i.imgur.com/1hl2rlg.png)
+![](https://i.imgur.com/Jhx5twb.png)
 
-![](https://i.imgur.com/596KjdX.png)
+![](https://i.imgur.com/6IQ2G06.png)
 
 ![](https://i.imgur.com/vMcnJb3.png)
